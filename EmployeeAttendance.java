@@ -11,13 +11,14 @@ import java.util.DateTime;
 
 
 public class EmployeeAttendance {
-    
+
    public int id ;
 
    public Date DayDate ;
    public DateTime CheckIn ;
    public DateTime CheckOut ;
    public int EmployeeId ;
+   public int rana ;
 
     public EmployeeAttendance() {
     }
@@ -51,14 +52,14 @@ public class EmployeeAttendance {
         this.CheckOut = CheckOut;
         this.EmployeeId = EmployeeId;
     }
-    
+
     public int Add(int EmployeeId , DateTime CheckIn , Date DayDate ){
-    
+
     }
     public boolean CheckOut(Date DayDate,DateTime CheckOut,int EmployeeId ){
-    
+
     }
      public list<EmployeeAttendance> GetEmployeeAttendanceList(Date StartDate , Date EndDate , int EmployeeId){
-    
+
     }
 }
