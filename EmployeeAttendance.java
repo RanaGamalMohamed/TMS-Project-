@@ -18,7 +18,8 @@ public class EmployeeAttendance {
    public DateTime CheckIn ;
    public DateTime CheckOut ;
    public int EmployeeId ;
-   public int rana ;
+   public int ay7aga ;
+
 
     public EmployeeAttendance() {
     }
