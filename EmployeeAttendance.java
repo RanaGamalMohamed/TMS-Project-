@@ -19,6 +19,7 @@ public class EmployeeAttendance {
    public DateTime CheckOut ;
    public int EmployeeId ;
    public int ay7aga ;
+   public String video;
 
 
     public EmployeeAttendance() {
